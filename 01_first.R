@@ -7,3 +7,5 @@ library(psych)
 describe(mtcars) 
 
 hist(mtcars$mpg)
+
+boxplot(mpg~cyl, data=mtcars)
